@@ -16,7 +16,9 @@ namespace Department_Using_Layer_Arch_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DepartmentUI());
+            //
+            Application.Run(new University_UI());
+            //Application.Run(new DepartmentUI());
         }
     }
 }
